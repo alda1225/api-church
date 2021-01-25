@@ -9,7 +9,7 @@ app.use('/abc', movies);
 
 
 app.get('/', (req, res) => {
-    res.send('EN HORA BUENA');
+    res.send('hola royer');
 })
 
 const port = process.env.PORT || '5000';
