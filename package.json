@@ -1,17 +1,21 @@
 {
-  "name": "node-tutorial",
-  "version": "1.0.0",
-  "description": "Node Js Tutorial",
-  "main": "app.js",
-  "scripts": {
-    "start": "node app.js"
-  },
-  "author": "Daily Code Buffer",
-  "license": "ISC",
-  "dependencies": {
-    "@hapi/joi": "^17.1.1",
-    "debug": "4.1.1",
-    "express": "^4.17.1",
-    "nodemon": "^2.0.2"
-  }
+    "name": "node-tutorial",
+    "version": "1.0.0",
+    "description": "Node Js Tutorial",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "author": "Daily Code Buffer",
+    "license": "ISC",
+    "dependencies": {
+        "@hapi/joi": "^17.1.1",
+        "cors": "^2.8.5",
+        "debug": "4.1.1",
+        "express": "^4.17.1",
+        "faker": "^5.1.0",
+        "mongoose": "^5.11.13",
+        "morgan": "^1.10.0",
+        "nodemon": "^2.0.2"
+    }
 }
