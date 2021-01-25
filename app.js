@@ -3,7 +3,6 @@ const app = express();
 const datos = require('./routers/datos');
 const { connect } = require('./database');
 
-
 app.use(express.json());
 //instancia metodos de rutas datos.
 app.use('', datos);
