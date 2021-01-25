@@ -4,15 +4,18 @@ const faker = require('faker');
 const Dato = require('../models/Datos');
 module.exports = router;
 
+//Mensaje de inicio
 router.get('/', (req, res) => {
-    res.send('Listo!');
+    res.send('LISTO!');
 });
 
+//Consulta datos
 router.get('/api/datos', async(req, res) => {
     const datos = await Dato.find();
     res.json({ datos });
 });
 
+//Crea datos ficticios
 router.get('/api/datos/create', async(req, res) => {
     for (let i = 0; i < 2; i++) {
         await Dato.create({
